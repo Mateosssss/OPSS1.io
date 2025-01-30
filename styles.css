@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #ffffffd3;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+}
+.nav-link:hover {
+  color: black;
+}
+
+#Home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#Home .lead {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+#Home p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+#Home ul {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#Home .btn-primary {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+#Home .btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#Home img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+leadership {
+  margin: 0 auto;
+}
+
+.leadership-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.leadership-img:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.leadership h3 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  transition: color 0.3s ease;
+}
+
+.leadership .col-lg-3:hover h3 {
+  color: #007bff;
+}
+
+.leadership p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+.team-photo {
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px gray;
+}
+.bg-custom {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+#Portfolio {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+#Portfolio .card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Portfolio .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#Portfolio .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#Portfolio .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#Portfolio .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+#Portfolio .badge {
+  margin-right: 5px;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
+#Portfolio .btn-primary {
+  margin-top: 10px;
+}
+#Portfolio img {
+  height: 300px;
+}
+
+#Technologies {
+  padding: 80px 0;
+}
+
+#Technologies .card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Technologies .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#Technologies .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#Technologies .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+#Technologies .btn-outline-primary {
+  margin-top: 10px;
+}
+
+#Contact {
+  padding: 80px 0;
+}
+
+#Contact .card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Contact .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#Contact .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#Contact .card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+#Contact .btn-primary {
+  margin-top: 10px;
+}
+
+#Contact iframe {
+  border-radius: 15px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
